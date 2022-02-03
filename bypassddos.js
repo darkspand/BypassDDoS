@@ -14,7 +14,7 @@ if (process.argv.length !== 7) {
     console.log(`                       
 Usage: node ${path.basename(__filename)} <url> <time> <ConnectPerThread> <proxies> <thread>
 Usage: node ${path.basename(__filename)} <http://example.com> <60> <250> <proxy.txt> <1>
-                                                    By: Murrez
+                                                    By: lero
 `);
     process.exit(0);
 }
